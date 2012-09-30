@@ -6,9 +6,9 @@ class NewsletterMailer < ActionMailer::Base
   #
   #   en.newsletter_mailer.weekly.subject
   #
-  def weekly(email)
+  def weekly
     @greeting = "Hi"
 
-    mail to: email, subject: 'Railscasts Weekly'
+    mail to: "to@example.org"
   end
 end

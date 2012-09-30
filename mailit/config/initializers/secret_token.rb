@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Mailit::Application.config.secret_token = 'e3eaf39ea427d13dd79dd715401ca263354796ab4126a37e3f3bc510e8cdde081864fc719b53aa77feb858ae21e0c195765f20de2fdaa26e11acd347f0cc2668'
+Mailit::Application.config.secret_token = '6b8ef060470f399da3dd97b2b4106e2c01487abac0c4df88a755422dd0c938e1931e8901689ff9d0a15677be46b1ac7b5bbd8f65cc02bbf829e134dd20c8538c'
